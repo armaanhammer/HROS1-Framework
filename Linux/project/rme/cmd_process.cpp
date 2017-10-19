@@ -1000,7 +1000,6 @@ void HelpCmd()
 void NextCmd()
 {
 	PageCmd(indexPage + 1);
-	DrawPage();
 }
 
 int IndexPage(void)
